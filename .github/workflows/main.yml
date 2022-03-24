@@ -28,7 +28,7 @@ jobs:
       - name: actions-checkout
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          githubStr: ${{toJson(github)}}
+          githubStr: ${{toJSON(github)}}
         run: echo ${{githubStr}}
       # Runs a single command using the runners shell
       
