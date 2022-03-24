@@ -1,0 +1,14 @@
+{
+  "name": "gh-action",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jinzhan/gh-action.git",
+  "author": "Jinzhan <steinitz@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo test"
+  },
+  "dependencies": {
+    "pkg": "^5.5.2"
+  }
+}
