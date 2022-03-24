@@ -23,12 +23,12 @@ jobs:
           node-version: 16
     - name: install package
       run: npm install
-    - name: install child
-      run: npm run install-child
-    - name: lerna bootstrap
-      run: npm run lerna
-    - name: make pkg
-      run: npm run pkg
+    # - name: install child
+    #   run: npm run install-child
+    # - name: lerna bootstrap
+    #   run: npm run lerna
+    # - name: make pkg
+    #   run: npm run pkg
     - name: Create Draft Release
       id: create_release
       uses: actions/create-release@v1
